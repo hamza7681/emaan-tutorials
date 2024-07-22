@@ -141,3 +141,13 @@ for (const item of newPersonData) {
     console.log(item);
   }
 }
+
+// convert string into array
+let firstName = 'How are you doing today?';
+const nameArray = firstName.split(' ');
+
+console.log(nameArray);
+
+// convert string array into string
+const name = nameArray.join(' ');
+console.log(name);
